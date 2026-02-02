@@ -79,7 +79,7 @@ export default function HypervisorDiagram() {
           </svg>
           
           <p className="text-slate-400 text-xs mt-4 max-w-[280px] mx-auto">
-            Data flows directly from hardware through hypervisor to VMs – minimal latency
+            Data flows directly from hardware →  hypervisor → VMs – minimal latency(faster). 
           </p>
         </div>
 
@@ -151,7 +151,7 @@ export default function HypervisorDiagram() {
           </svg>
           
           <p className="text-slate-400 text-xs mt-4 max-w-[280px] mx-auto">
-            Data must traverse Host OS layer – additional overhead but easier setup
+            It has more steps (hardware → host OS → hypervisor → VMs) so it’s slower but it’s easier to install and set up.
           </p>
         </div>
 

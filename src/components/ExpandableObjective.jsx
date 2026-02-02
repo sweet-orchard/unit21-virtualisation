@@ -14,21 +14,25 @@ const objectiveDetails = {
     'Memory virtualisation techniques'
   ],
   'Explain how virtualised solutions meet computing requirements (P2)': [
-    'GamesTek\'s hardware testing requirements',
-    'Performance metrics monitoring needs',
-    'Collaboration with Top-game-shack',
-    'Recommended VDI solution architecture',
-    'Impact on organisation and testers'
+    "GamesTek's Computing Requirements",
+    'Type 2 Hypervisor',
+    'Virtual Desktop Infrastructure (VDI) and Thin Client',
+    'Full Virtualisation',
+    'Hardware Assistance',
+    'Emulation of Android',
+    'Snapshots',
+    'Teleportation'
   ],
   'Analyse the impact of implementing virtualised solutions (M1)': [
-    'Technical impact: server consolidation, flexibility, risks',
-    'Organisational impact: management, costs, training',
-    'User impact: workflow, remote work, dependencies'
+    'Technical impact',
+    'Organisation impact',
+    'Impact on Testers (Users)'
   ],
   'Evaluate the impact of virtualised solutions on an organisation (D1)': [
-    'Overall benefits assessment',
-    'Drawbacks and risk analysis',
-    'Final judgement with justification'
+    'Business Infrastructure and Service Delivery Model',
+    'Legal, Ethical, and Licensing Considerations',
+    'Requirements That Cannot or Should Not Be Met Using Virtualisation',
+    'Final Judgement'
   ]
 };
 

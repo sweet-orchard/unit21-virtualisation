@@ -11,10 +11,10 @@ import {
 export default function Sidebar({ activeSection, expanded, setExpanded, setActiveSection }) {
   const navItems = [
     { id: 'overview', label: 'Project Overview', icon: Home },
-    { id: 'introduction', label: 'Introduction', icon: BookOpen },
-    { id: 'task1', label: 'Task 1 (P1 & P2)', icon: Layers },
-    { id: 'task2', label: 'Task 2 (M1 & D1)', icon: BarChart3 },
-    { id: 'conclusion', label: 'Conclusion', icon: CheckCircle },
+    { id: 'p1', label: 'P1: Explanation', icon: BookOpen },
+    { id: 'p2', label: 'P2: Solution', icon: Layers },
+    { id: 'm1', label: 'M1: Analysis', icon: BarChart3 },
+    { id: 'd1', label: 'D1: Evaluation', icon: CheckCircle },
   ];
 
   return (
@@ -59,7 +59,7 @@ export default function Sidebar({ activeSection, expanded, setExpanded, setActiv
           <motion.a
             key={item.id}
             href={`#${item.id}`}
-            className={`w-full flex items-center px-6 py-4 transition-all duration-200 border-l-4 relative overflow-hidden ${
+            className={`w-full flex items-center ${expanded ? 'px-6 justify-start' : 'pl-5 pr-0 justify-start'} py-4 transition-all duration-200 border-l-4 relative overflow-hidden ${
               activeSection === item.id 
                 ? 'border-sky-400 text-sky-400' 
                 : 'border-transparent text-slate-400 hover:text-sky-400'
@@ -71,7 +71,6 @@ export default function Sidebar({ activeSection, expanded, setExpanded, setActiv
               backgroundColor: 'rgba(56, 189, 248, 0.1)',
               borderLeftColor: 'rgba(56, 189, 248, 0.5)',
             }}
-            onClick={() => setActiveSection?.(item.id)}
           >
             {/* Active indicator glow */}
             {activeSection === item.id && (
@@ -112,7 +111,7 @@ export default function Sidebar({ activeSection, expanded, setExpanded, setActiv
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
-            <p className="text-[9px] text-slate-500 uppercase tracking-widest text-center">Unit 21: Virtualisation</p>
+            <p className="text-[9px] text-slate-500 uppercase tracking-widest text-center">Vira Saienko</p>
           </motion.div>
         )}
       </AnimatePresence>
