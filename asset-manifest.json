@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/unit21-virtualisation/static/css/main.13ecccae.css",
+    "main.js": "/unit21-virtualisation/static/js/main.0881fade.js",
+    "static/js/453.8e21e4ac.chunk.js": "/unit21-virtualisation/static/js/453.8e21e4ac.chunk.js",
+    "index.html": "/unit21-virtualisation/index.html",
+    "main.13ecccae.css.map": "/unit21-virtualisation/static/css/main.13ecccae.css.map",
+    "main.0881fade.js.map": "/unit21-virtualisation/static/js/main.0881fade.js.map",
+    "453.8e21e4ac.chunk.js.map": "/unit21-virtualisation/static/js/453.8e21e4ac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.13ecccae.css",
+    "static/js/main.0881fade.js"
+  ]
+}
