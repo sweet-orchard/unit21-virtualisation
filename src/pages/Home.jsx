@@ -902,7 +902,7 @@ export default function HomePage() {
                           </p>
                         </div>
                         <a
-                          href="https://sweet-orchard.github.io/memory-management/"
+                          href="https://sweet-orchard.github.io/memory-management-diagram/"
                           target="_blank"
                           rel="noreferrer"
                           className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-emerald-400/20 text-emerald-300 border border-emerald-400/30 hover:bg-emerald-400/30 transition"
@@ -912,7 +912,7 @@ export default function HomePage() {
                         </a>
                       </div>
                       <a
-                        href="https://sweet-orchard.github.io/memory-management/"
+                        href="https://sweet-orchard.github.io/memory-management-diagram/"
                         target="_blank"
                         rel="noreferrer"
                         className="group block"
